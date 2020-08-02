@@ -98,9 +98,9 @@ function gf_to_ygl($entry, $form) {
 
 			if ( is_wp_error( $response ) ) {
 				$error_message = $response->get_error_message();
-				$message = 'Error Sending Form 24 from frunctions file. The query was ' . $post_json . ' The Response was: ' . $error_message;
+				$message = 'Error Sending Form X from frunctions file. The query was ' . $post_json . ' The Response was: ' . $error_message;
 			} else {
-				$message = 'Form 24 sent to YGL without error using theme functions file.';
+				$message = 'Form X sent to YGL without error using theme functions file.';
 			}
 			
 			log_me($message);
